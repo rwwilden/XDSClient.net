@@ -1,6 +1,6 @@
 [submodule "data-plane-api"]
 	path = data-plane-api
 	url = https://github.com/envoyproxy/data-plane-api.git
-[submodule "XDSClient/googleapis"]
+[submodule "googleapis"]
 	path = googleapis
 	url = https://github.com/googleapis/googleapis.git
