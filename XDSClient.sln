@@ -18,6 +18,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "v2", "v2", "{43487C37-92F4-4A83-A5A5-64B97DC2B79E}"
 	ProjectSection(SolutionItems) = preProject
 		data-plane-api\envoy\api\v2\cds.proto = data-plane-api\envoy\api\v2\cds.proto
+		data-plane-api\envoy\api\v2\discovery.proto = data-plane-api\envoy\api\v2\discovery.proto
 	EndProjectSection
 EndProject
 Global
