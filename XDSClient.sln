@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XDSClient", "XDSClient\XDSClient.csproj", "{98FAD8E2-E194-4504-B417-C997E484B618}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution", "solution", "{FC2C5E91-B83E-4089-8D15-4D11D851313C}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+		.gitmodules = .gitmodules
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data-plane-api", "data-plane-api", "{BDF0037A-4234-4033-B97B-39F59AACE383}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "envoy", "envoy", "{B6AEF8A0-EE40-43AE-A6B3-89AB7C9E26CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{A67F3A99-99CB-4DE4-AFEC-980A4F6A7BF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "v2", "v2", "{43487C37-92F4-4A83-A5A5-64B97DC2B79E}"
+	ProjectSection(SolutionItems) = preProject
+		data-plane-api\envoy\api\v2\cds.proto = data-plane-api\envoy\api\v2\cds.proto
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98FAD8E2-E194-4504-B417-C997E484B618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98FAD8E2-E194-4504-B417-C997E484B618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98FAD8E2-E194-4504-B417-C997E484B618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98FAD8E2-E194-4504-B417-C997E484B618}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6AEF8A0-EE40-43AE-A6B3-89AB7C9E26CE} = {BDF0037A-4234-4033-B97B-39F59AACE383}
+		{A67F3A99-99CB-4DE4-AFEC-980A4F6A7BF2} = {B6AEF8A0-EE40-43AE-A6B3-89AB7C9E26CE}
+		{43487C37-92F4-4A83-A5A5-64B97DC2B79E} = {A67F3A99-99CB-4DE4-AFEC-980A4F6A7BF2}
+	EndGlobalSection
+EndGlobal
