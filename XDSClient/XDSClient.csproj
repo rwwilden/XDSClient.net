@@ -6,9 +6,6 @@
     <Nullable>enable</Nullable>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
-  <!--    <ItemGroup>-->
-  <!--        <Protobuf Include="../data-plane-api/envoy/api/v2/cds.proto" GrpcServices="Client" />-->
-  <!--    </ItemGroup>-->
   <ItemGroup>
     <PackageReference Include="Google.Protobuf" Version="3.19.1" />
     <PackageReference Include="Grpc.Net.ClientFactory" Version="2.41.0" />
@@ -18,6 +15,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <Protobuf Include="../data-plane-api/envoy/api/v2/cds.proto" GrpcServices="Client" AdditionalImportDirs="../data-plane-api" Link="Protos/cds.proto" />
+    <Protobuf Include="../data-plane-api/envoy/api/v2/cds.proto" GrpcServices="Client" AdditionalImportDirs="../data-plane-api;../googleapis" Link="Protos/cds.proto" />
   </ItemGroup>
 </Project>
